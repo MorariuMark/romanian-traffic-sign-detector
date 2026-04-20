@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 50
+names: ['20', '21', '22', 'Ahead only', 'Beaware of icesnow', 'Bumpy road', 'Children Crossing', 'Dangerous curve left', 'Dangerous curve right', 'Double curve', 'End Speed - Passing limits', 'End no passing veh 3.5 tons', 'End of no passing', 'General caution', 'Go Stright or Left', 'Go Stright or Right', 'Keep Left', 'Keep Right', 'No entry', 'No passing', 'No passing veh over 3.5 tons', 'No vechiels', 'Pedestrains', 'Right-of-way at intersection', 'Road Narrows on The Right', 'Road Work', 'Roundabout mandatory', 'Slippery road', 'Traffic Signals', 'Turn Left Ahead', 'Turn Right Ahead', 'Wild Animals Crossing', 'Yield', 'ahead only', 'bycycle crossing', 'children crossing', 'end of speed limit -80 Km-h-', 'priority road', 'roundabout Mandatory', 'speed limit -100 Km-h-', 'speed limit -120 Km-h-', 'speed limit -20 Km-h-', 'speed limit -30 Km-h-', 'speed limit -50 Km-h-', 'speed limit -60 Km-h-', 'speed limit -70 Km-h-', 'speed limit -80 Km-h-', 'stop', 'turn left ahead', 'veh-3.5 tons is prohipted']
+
+roboflow:
+  workspace: marks-workspace-ornfn
+  project: traffic-sign-detection-gtsrb-rnj6k
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/marks-workspace-ornfn/traffic-sign-detection-gtsrb-rnj6k/dataset/1
